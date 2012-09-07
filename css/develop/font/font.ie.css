@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'LuxorCNormal';
+    src: url('../../f/lux.eot') format('eot');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+    font-family: 'GeorgiaRegular';
+    src: url('../../f/georgia.eot') format('eot');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+    font-family: 'ScrawlRegular';
+    src: url('../../f/scrawl.eot') format('eot');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+    font-family: 'AngelicaCNormal';
+    src: url('../../f/ang.eot') format('eot');
+	font-weight: normal;
+	font-style: normal; 
+}

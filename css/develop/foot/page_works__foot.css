@@ -1,0 +1,7 @@
+.page_works__foot{
+	border-top:2px solid #f9d9d3;
+}
+
+.page_works__foot:before{
+	content:none;
+}

@@ -1,0 +1,7 @@
+.page_contacts__wrapper{
+	max-width:1208px;
+}
+
+*+html .page_contacts__wrapper{
+	max-width:1140px;
+}

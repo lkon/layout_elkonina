@@ -1,0 +1,7 @@
+.wrapper_has_bg{
+	background:#75738f; 
+	-webkit-border-radius:0 0 20px 20px;
+	-moz-border-radius:0 0 20px 20px;
+	border-radius:0 0 20px 20px;
+	behavior:url(pie.php);
+}

@@ -1,0 +1,113 @@
+.favorites__item {
+	position:relative;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+.favorites__site {
+	font-family: "AngelicaCNormal", Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+.favorites__icon {
+	position:absolute;
+	left:0;
+	display:inline-block;
+	background-image: url(../i/favorite__icon.png);
+	background-repeat: no-repeat;
+	top: 55%;
+}
+
+.favorites__icon_view_bem {
+	width: 16px;
+	height: 12px;
+	background-position: 0 0;
+}
+
+.favorites__icon_view_cssing {
+	width: 7px;
+	height: 7px;
+	background-position: -48px -40px;
+	left: 5px;
+	top: 65%;
+}
+
+.favorites__icon_view_pepelsbey {
+	width: 16px;
+	height: 16px;
+	background-position: -16px 0;
+}
+
+.favorites__icon_view_chikuyonok {
+	width: 10px;
+	height: 10px;
+	background-position: -48px -30px;
+	left: 3px;
+	top: 65%;
+}
+
+.favorites__icon_view_sreznikov {
+	width: 16px;
+	height: 16px;
+	background-position: 0 -12px;
+}
+
+.favorites__icon_view_technogrette {
+	width: 16px;
+	height: 16px;
+	background-position: 0 -28px;
+}
+
+.favorites__icon_view_garaev {
+	width: 14px;
+	height: 14px;
+	background-position: -48px -16px;
+}
+
+.favorites__icon_view_htmlbook {
+	width: 16px;
+	height: 16px;
+	background-position: -32px 0;
+}
+
+.favorites__icon_view_xiper {
+	width: 16px;
+	height: 16px;
+	background-position: -32px -44px;
+}
+
+.favorites__icon_view_tricks {
+	width: 16px;
+	height: 13px;
+	background-position: -16px -31px;
+}
+
+.favorites__icon_view_mozilla {
+	width: 16px;
+	height: 14px;
+	background-position: -16px -16px;
+}
+
+.favorites__icon_view_webo {
+	width: 16px;
+	height: 16px;
+	background-position: -32px -28px;
+}
+
+.favorites__icon_view_standard {
+	width: 15px;
+	height: 11px;
+	background-position: -32px -16px;
+}
+
+.favorites__icon_view_makeitsexy {
+	width: 16px;
+	height: 16px;
+	background-position: -16px -44px;
+}
+
+.favorites__icon_view_banzalik {
+	width: 16px;
+	height: 16px;
+	background-position: 0 -44px;
+}

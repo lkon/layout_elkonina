@@ -1,0 +1,144 @@
+﻿.menu_gor__list{
+	position:relative;
+	z-index:1;
+	display:table;
+	text-align:right;
+	float:right;
+	margin-top:-82px;
+	white-space:nowrap;
+	width:67%;	
+	padding-right:12px;
+	border: 1px dashed #585488;
+	-webkit-border-radius:20px 0 0 0;
+	-moz-border-radius:20px 0 0 0;
+	-o-border-radius:20px 0 0 0;
+	border-radius:20px 0 0 0;
+	
+	zoom:1;
+	behavior:url(pie.php);
+}
+	.menu_gor__list > ul{
+		display:table-row;
+	}
+	.menu_gor__item{
+		display:table-cell;
+		width:20%;
+		padding:0 6px;
+	}
+	.menu_gor__item:first-child{
+		padding-left:0;
+	}
+	.menu_gor__item:last-child{
+		padding-right:0;
+	}
+
+/******  задается цветовое решение непосредственно для ссылок */
+
+	
+.menu_gor__link,
+.menu_gor__link:link{	
+	display:inline-block;
+	width:100%;
+	font-family:"LuxorCNormal", Arial, sans-serif;	
+	font-size:24px;
+	line-height:22px;	
+		
+	padding:26px 8px 8px 2px;
+	
+	color:#f9d9d3;	
+	border:1px solid transparent;
+	-webkit-border-radius:20px 0 0 0;
+	-moz-border-radius:20px 0 0 0;
+	-o-border-radius:20px 0 0 0;
+	border-radius:20px 0 0 0;	
+	zoom:1;
+	behavior:url(pie.php);
+}
+	.menu_gor__first-word{
+		float:right;
+		margin-top:-22px;
+		color:#7c4b7f;
+	}
+	
+
+.menu_gor__link:visited{		
+	text-decoration:none;
+	color:#fff;
+	border-color:#75738f;
+}
+	.menu_gor__link:visited > .menu_gor__first-word{
+		color:#cccae9;
+	}
+.menu_gor__link:link:hover,
+.menu_gor__link:visited:hover{		
+	text-decoration:none;
+	color:#fff;
+	background:#7c4b7f;	
+	border-color:#f9d9d3;
+}
+	.menu_gor__link:link:hover > .menu_gor__first-word,
+	.menu_gor__link:visited:hover > .menu_gor__first-word{
+		color:#cccae9;
+	}
+	
+	
+.menu_gor__link:link:active,
+.menu_gor__link:visited:active{	
+	border-color:#7c4b7f;
+}
+
+.menu_gor__link_state_current,	
+.menu_gor__link_state_current:link,
+.menu_gor__link_state_current:visited
+{
+	padding:24px 6px 6px 0px;
+	color:#c37f73;
+	background:#f9d9d3;
+	border:3px double #c37f73;
+}
+	.menu_gor__first-word_state_current,
+	.menu_gor__link:visited > .menu_gor__first-word_state_current
+	{
+		color:#585488;
+	}
+
+.menu_gor__link,
+.menu_gor__link:link,
+.menu_gor__first-word,
+.menu_gor__link:visited,
+.menu_gor__link:visited > .menu_gor__first-word,
+.menu_gor__link:link:hover,
+.menu_gor__link:visited:hover,
+.menu_gor__link:link:hover > .menu_gor__first-word,
+.menu_gor__link:visited:hover > .menu_gor__first-word,
+.menu_gor__link_state_current,	
+.menu_gor__link_state_current:link,
+.menu_gor__link_state_current:link:hover,	
+.menu_gor__link_state_current:visited:hover,	
+.menu_gor__first-word_state_current,
+.menu_gor__link_state_current:hover > .menu_gor__first-word_state_current
+
+{
+	-webkit-transition:all 3.0s ease-out;
+		-moz-transition:all 3.0s ease-out;
+		-o-transition:all 3.0s ease-out;
+		-ms-transition:all 3.0s ease-out;	
+		transition:all 3.0s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

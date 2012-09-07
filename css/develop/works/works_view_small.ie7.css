@@ -1,0 +1,44 @@
+.works__item_view_small {
+	display: inline; /*small*/
+	margin:20px 2%;
+	zoom:1;
+}
+
+.works__fig_view_small {
+	border: none;
+}
+
+html.js .works__fig-cap_view_small {
+	display: none; /* small*/
+}
+
+.works__fig-img_view_small {
+	width: 224px; /*small*/
+	height: 152px;	
+	
+	border: 3px solid #75738f;
+
+	border-radius: 20px;
+	behavior: url(pie.php);
+}
+html.js .works__fig-img_view_small{
+	cursor: pointer;
+}
+
+.works__fig-img_view_small > img {
+	opacity:0;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); 
+}
+
+html.no-js .works__item_view_small {
+	width:20%;
+	vertical-align:top;
+}
+html.no-js .works__fig-img_view_small {
+	border-radius:0;
+}
+
+html.no-js .works__fig-img_view_small > img{	
+	opacity:1;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); 
+}

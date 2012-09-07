@@ -1,0 +1,37 @@
+.page_index__greeting{
+	padding-right:40%;
+	padding-bottom:40px;
+}
+	.page_index__greeting:first-letter {
+		float:left;
+		padding-right:5px;	
+		color:#7c4b7f;
+		font-weight:bold;	
+		font-size:65px;
+		font-family:"ScrawlRegular", "Segoe Script", cursive;
+	}
+	.page_index__img-wrapper{
+		float:right;
+		position:relative;
+		z-index:1;
+		border:1px solid #e5d4e6;
+		height:354px;
+		width:auto;	
+		background:transparent url(../../i/page_index__greeting_hover.jpg) 0 0 no-repeat;
+	}
+	.page_index__img:hover{
+		opacity:0;
+	}	
+.page_index__item{
+	margin-bottom:25px;
+}
+	.page_index__subhead{
+		margin-bottom:2px;
+		border-bottom:1px solid #e5d4e6;
+		line-height:22px;	
+		font-size:20px;	
+		font-family:"LuxorCNormal", Arial, sans-serif;
+	}
+	.page_index__sublist{
+		margin-left:15px;
+	}

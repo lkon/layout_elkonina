@@ -1,0 +1,36 @@
+.item_has_marker{
+			position:relative;
+		}
+			.item_has_marker:before{
+				position: absolute;
+				top: 0;
+				left: -15px;
+				content:'\25D7';
+			}
+.page_index .item_has_marker:before{
+	color:#7c4b7f;
+}
+
+.page_works .item_has_marker{
+	margin-bottom:0.5em;
+	text-indent:15px;
+	text-align:justify;
+}
+.page_works .item_has_marker:before{
+	color:#f9d9d3;
+}
+html.ie8 .item_has_marker{
+	position:static;
+	list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAUCAYAAACu0kzYAAAAQ0lEQVR42mNgGCagxrv+PxBfAuIiIOZEl/iPpEAamwRMkg2bBAgX4ZI4j0viGy6JD7gkDuOSyCHauRgePADSDlYJBQC/8Yw+2TITIwAAAABJRU5ErkJggg==");
+	list-style-position: outside;
+}
+	html.ie8 .item_has_marker:before{
+		content:none;
+	}
+html.ie8 .page_works .item_has_marker{
+	margin-bottom:0.5em;
+	text-indent:15px;
+	text-align:justify;
+	list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAPCAYAAAAs9AWDAAAAM0lEQVR42mNgGCLg583LW4A4B13wPxQvwiYIwpbYBDOxCXqjCx4DYmaY4HMgng/E/DB7ADFYUXkR0AVRAAAAAElFTkSuQmCC");
+	list-style-position: outside;
+}

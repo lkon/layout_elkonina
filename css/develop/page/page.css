@@ -1,0 +1,14 @@
+.page{
+	line-height:1.4em;
+	font-size:1.4em;	
+	min-height:300px;
+	padding-bottom:70px;
+}
+
+.page__head{
+	color:#cccae9;
+	font-size:30px;
+	font-family:"LuxorCNormal", Arial, sans-serif;
+	text-shadow: 2px 2px 0px #585488;
+	padding:22px 0;
+}

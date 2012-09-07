@@ -1,0 +1,26 @@
+.slogan{
+	position:absolute;
+	top:20px;
+	right:2%;
+	color:#f9e9e6;
+	text-align:right;
+	font-size:20px;
+}
+.slogan__text{	
+	line-height:33px;
+	font-weight:bold;
+	font-family:"ScrawlRegular", "Segoe Script", cursive;
+}
+.slogan__text:first-letter{
+	display:inline-block;
+	margin-right:-20px;
+	color:#7c4b7f;
+	vertical-align:bottom;
+	font-weight:bold;
+	font-size:65px;
+}
+.slogan__aythor{
+	color:#fff;	
+	line-height:30px;
+	font-family:"LuxorCNormal", Arial, sans-serif;
+}

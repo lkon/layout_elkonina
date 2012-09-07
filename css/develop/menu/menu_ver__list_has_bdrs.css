@@ -1,0 +1,6 @@
+.menu_ver__list_has_bdrs{
+	-webkit-border-radius:0 0 20px 20px;
+	-moz-border-radius:0 0 20px 20px;
+	border-radius:0 0 20px 20px;
+	behavior:url(pie.php);
+}

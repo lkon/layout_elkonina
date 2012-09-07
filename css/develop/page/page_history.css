@@ -1,0 +1,50 @@
+.page_history{	
+	color:#e5d4e6;
+	text-align:justify;
+}
+	.page_history__column{
+		-webkit-column-count:3;
+		-webkit-column-gap:40px;
+		-webkit-column-rule:1px dashed #585488;
+		-moz-column-count:3;
+		-moz-column-gap:40px;
+		-moz-column-rule:1px dashed #585488;
+		column-count:3;
+		column-gap:40px;
+		column-rule:1px dashed #585488;
+		
+		padding-top:60px;
+		overflow:hidden;
+	}
+		.page_history__column p{
+			padding-top:20px;
+		}
+			html.csscolumns .page_history__column p:first-letter{
+				padding-right:5px;
+				color:#7c4b7f;	
+				font-size:40px;
+				font-family:"ScrawlRegular", "Segoe Script", cursive;
+			}
+
+/*  Сценарий jquery.columnizer.min.js создает колонки в виде div с классами .column - для всех, 
+и .first & .last - для первого и последнего соответственно. Здесь корректируется представление div*/
+.column{
+	position:relative;
+	-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+			box-sizing:border-box;
+	padding-right:40px;
+}
+.last{
+	padding-right:0;
+}
+
+html.no-csscolumns .column:before{
+	position:absolute;
+	content:"\0020";
+	bottom:0;
+	left:-20px;
+	height:95%;
+	border-right:1px dashed #585488;
+	vertical-align:bottom;
+}

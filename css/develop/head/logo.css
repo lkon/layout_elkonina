@@ -1,0 +1,78 @@
+.logo {
+	width: 300px;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.logo_head {
+	font-family: "LuxorCNormal", Arial, sans-serif;
+	font-size: 33px;
+	margin-bottom: -14px;
+}
+	.logo_head__lastname {
+		font-size: 82px;
+		display: block;
+		color: #fff;
+	}
+		.logo_head__lastname:first-letter {
+			font-size: 100px;
+		}
+
+	.logo_head__firstname {
+		float: right;
+		margin-top: -95px;
+		letter-spacing: 4px;
+		color: #7c4b7f;
+	}
+	
+.logo_rezume {
+	font-family: "AngelicaCNormal", Arial, sans-serif;
+	font-size: 28px;
+	font-weight:bold;
+	letter-spacing: 2px;
+	color: #f9d9d3;
+	text-shadow: 3px 3px 0px #585488;
+}
+
+/*****BEGIN hover для логотипа*/
+.logo__link:hover {
+	text-decoration: none;	
+}
+.logo__link:hover > .logo_head__lastname,
+.logo__link:hover em,
+.logo__link:hover>.logo_head__firstname {
+	color: #a1a1b0;
+	text-shadow: 0px 2px 0px #7c4b7f, 2px 0px 0px #7c4b7f;
+	/*filter: dropshadow(color=#e31cae, offx=0, offy=1);		/* ПРАВИЛО ДЛЯ IE */
+}
+
+
+
+
+
+
+/*****END hover для логотипа*/
+/*
+Кроссбраузерный text-shadow
+На jQuery был написан скрипт, который позволяет научить старые браузеры понимать эффект text-shadow. Для этого нужен jQuery, плагин (http://shublog.ru/files/js/jquery.textshadow.js) и следующая последовательность действий.
+
+Указываем на CSS тени.
+
+p { text-shadow: 1px 1px #000;}
+Подключаем библиотеку со скриптом
+
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.textshadow.js" type="text/javascript"></script>
+Добавляем обработчик
+
+<script type="text/javascript">
+// <![CDATA[
+    jQuery(document).ready(function(){
+        jQuery("p").textShadow();
+    })
+// ]]>
+</script>
+Теперь у тега p будет появляться тень даже в IE. Однако всё в том же ишаке (IE6, IE7) может появляться баг - горизонтальный скролл при обработке блочных элементов. Лечится просто прописыванием display:inline, или width:99%. Первый вариант даже лучше (напоминаю про баг блоков с float-ом и padding'ом в IE6).
+
+ 
+*/

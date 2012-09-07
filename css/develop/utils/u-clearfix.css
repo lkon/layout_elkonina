@@ -1,0 +1,46 @@
+/* =CLEARING
+---------------------------------------------------------
+*/
+
+.u-clearfix:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    content: " ";
+    line-height:0;
+    font-size: 0;
+
+}
+
+/* .u-clearfix {
+    zoom: 1; */
+
+.u-clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+
+/* END CLEARING
+---------------------------------------------------------
+*/
+
+
+
+/* For modern browsers */
+.u-clearfix:before,
+.u-clearfix:after {
+    content:"";
+    display:table;
+}
+
+.u-clearfix:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.u-clearfix {
+    zoom:1;
+}

@@ -1,0 +1,42 @@
+@font-face {
+    font-family:'LuxorCNormal';
+    src: url('../f/lux.eot');
+    src: url('../f/lux.eot?') format('☺'),
+        url('../f/lux.woff') format('woff'),
+        url('../f/lux.ttf') format('truetype'),
+        url('../f/lux.svg#LuxorCNormal') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+    font-family:'GeorgiaRegular';
+    src: url('../f/georgia.eot');
+    src: url('../f/georgia.eot?') format('☺'),
+        url('../f/georgia.woff') format('woff'),
+        url('../f/georgia.ttf') format('truetype'),
+        url('../f/georgia.svg#GeorgiaRegular') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
+
+@font-face {
+    font-family:'ScrawlRegular';
+    src: url('../f/scrawl.eot');
+    src: url('../f/scrawl.eot?') format('☺'),
+        url('../f/scrawl.woff') format('woff'),
+        url('../f/scrawl.ttf') format('truetype'),
+        url('../f/scrawl.svg#ScrawlRegular') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
+
+@font-face {
+    font-family:'AngelicaCNormal';
+    src: url('../f/ang.eot');
+    src: url('../f/ang.eot?') format('☺'),
+        url('../f/ang.woff') format('woff'),
+        url('../f/ang.ttf') format('truetype'),
+        url('../f/ang.svg#AngelicaCNormal') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
