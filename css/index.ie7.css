@@ -1,0 +1,643 @@
+/* NORMALIZE  (BEGIN)
+ *------------------------------------------------------------------------------------
+ */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{
+	display: block;
+}
+
+audio,canvas,video {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+html {
+	font-size: 100%; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+	-ms-text-size-adjust: 100%; /* 2 */
+}
+
+html,button,input,select,textarea {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,a:active {
+	outline: 0;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 0.83em 0;
+}
+
+h3 {
+	font-size: 1.17em;
+	margin: 1em 0;
+}
+
+h4 {
+	font-size: 1em;
+	margin: 1.33em 0;
+}
+
+h5 {
+	font-size: 0.83em;
+	margin: 1.67em 0;
+}
+
+h6 {
+	font-size: 0.75em;
+	margin: 2.33em 0;
+}
+
+b,strong {
+	font-weight: bold;
+}
+
+blockquote {
+	margin: 1em 40px;
+}
+
+mark {
+	background: #ff0;
+	color: #000;
+}
+
+p,pre {
+	margin: 1em 0;
+}
+
+pre,code,kbd,samp {
+	font-family: monospace, serif;
+	_font-family: 'courier new', monospace;
+	font-size: 1em;
+}
+
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+q {
+	quotes: none;
+}
+
+q:before,q:after {
+	content: '';
+	content: none;
+}
+
+small {
+	font-size: 75%;
+}
+
+sub,sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+dl,menu,ol,ul {
+	margin: 1em 0;
+}
+
+dd {
+	margin: 0 0 0 40px;
+}
+
+menu,ol,ul {
+	padding: 0 0 0 40px;
+}
+
+nav ul {
+	list-style: none;
+	list-style-image: none;
+}
+
+img {
+	border: 0; /* 1 */
+	-ms-interpolation-mode: bicubic; /* 2 */
+}
+
+figure {
+	margin: 0;
+}
+
+form {
+	margin: 0;
+}
+
+legend {
+	border: 0; /* 1 */
+	padding: 0;
+	white-space: normal; /* 2 */
+	*margin-left: -7px; /* 3 */
+}
+
+button,input,select,textarea {
+	font-size: 100%; /* 1 */
+	margin: 0; /* 2 */
+	vertical-align: baseline; /* 3 */
+	*vertical-align: middle; /* 3 */
+}
+
+button,input {
+	line-height: normal; /* 1 */
+}
+
+button,input[type="button"],input[type="reset"],input[type="submit"] {
+	cursor: pointer; /* 1 */
+	-webkit-appearance: button; /* 2 */
+	*overflow: visible; /* 3 */
+}
+
+button[disabled],input[disabled] {
+	cursor: default;
+}
+
+input[type="checkbox"],input[type="radio"] {
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
+	*height: 13px; /* 3 */
+	*width: 13px; /* 3 */
+}
+
+/* NORMALIZE  (END)
+ *------------------------------------------------------------------------------------
+ */
+ 
+/* RESET  (BEGIN)
+ *------------------------------------------------------------------------------------
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: inherit;
+    font-size: 100%;
+}
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+ 
+/* RESET  (END)
+ *------------------------------------------------------------------------------------
+ */
+ 
+/* U-CLEARFIX  (BEGIN)
+ *------------------------------------------------------------------------------------
+ */
+/* For IE 6/7 (trigger hasLayout) */
+.u-clearfix {
+    zoom:1;
+}
+/* U-CLEARFIX  (END)
+ *------------------------------------------------------------------------------------
+ */
+
+/* I-GLOBAL  (BEGIN)
+ *------------------------------------------------------------------------------------
+ */
+html{
+	height:100%;
+	background:#a2a1af url("../i/bg_history.png") 0 0 repeat;
+	/* 
+	zoom:0.67; */
+}
+body {
+	font-size: 62.5%;
+	font-family: Georgia, serif;
+	height:100%;
+	width:100%;
+	min-width: 1000px;
+	max-width: 1920px;
+	margin:0 auto;
+	
+	/* 
+-moz-transform: scale(0.67);
+   -moz-transform-origin: 0 0;
+   -o-transform: scale(0.67);
+   transform: scale(0.67);*/
+}
+:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+:visited {
+	text-decoration: none;
+	color: #7c4b7f;
+}
+.visited_no_apply:visited {	
+	color: #fff;
+}
+a:hover {
+	text-decoration: underline;
+	color:#636;
+}
+
+h1,h2,h3{
+	font-weight:normal;
+}
+
+/* I-GLOBAL  (END)
+ *------------------------------------------------------------------------------------
+ */
+
+/* FONTS  (BEGIN)
+ *------------------------------------------------------------------------------------
+ */
+
+@font-face {
+    font-family: 'LuxorCNormal';
+    src: url('../f/lux.eot');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+    font-family: 'GeorgiaRegular';
+    src: url('../f/georgia.eot');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+    font-family: 'ScrawlRegular';
+    src: url('../f/scrawl.eot');
+	font-weight: normal;
+	font-style: normal; 
+}
+@font-face {
+    font-family: 'AngelicaCNormal';
+    src: url('../f/ang.eot');
+	font-weight: normal;
+	font-style: normal; 
+}
+/* FONTS  (END)
+ *------------------------------------------------------------------------------------
+ */
+
+/* WRAPPER  (BEGIN)
+ *------------------------------------------------------------------------------------
+ */
+.wrapper-out {
+	position: relative;
+	margin:auto;
+	max-width: 1200px;
+	min-height:100%;
+}
+.wrapper{
+	position:relative;
+	margin: auto;
+	padding:0 2%;
+	min-width: 1000px;
+	box-sizing: border-box;		
+}
+.wrapper_has_bg{
+	background:#75738f; 
+	border-radius:0 0 20px 20px;
+	behavior:url(pie.php);
+}
+/* WRAPPER  (END)
+ *------------------------------------------------------------------------------------
+ */
+ 
+ /* HEAD  (BEGIN)
+ *------------------------------------------------------------------------------------
+ */
+.head{
+	padding-bottom:5px;
+	border-bottom:2px solid #f9d9d3;
+}
+.logo {
+	width: 300px;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.logo_head {
+	font-family: "LuxorCNormal", Arial, sans-serif;
+	font-size: 33px;
+	margin-bottom: -14px;
+}
+	.logo_head__lastname {
+		font-size: 82px;
+		display: block;
+		color: #fff;
+	}
+		.logo_head__lastname:first-letter {
+			font-size: 100px;
+		}
+
+	.logo_head__firstname {
+		float: right;
+		margin-top: -95px;
+		letter-spacing: 4px;
+		color: #7c4b7f;
+	}
+	
+.logo_rezume {
+	font-family: "AngelicaCNormal", Arial, sans-serif;
+	font-size: 28px;
+	font-weight:bold;
+	letter-spacing: 2px;
+	color: #f9d9d3;
+	text-shadow: 3px 3px 0px #585488;
+}
+
+/*****BEGIN hover для логотипа*/
+.logo__link:hover {
+	text-decoration: none;	
+}
+.logo__link:hover > .logo_head__lastname,
+.logo__link:hover em,
+.logo__link:hover>.logo_head__firstname {
+	color: #a1a1b0;
+	text-shadow: 0px 2px 0px #7c4b7f, 2px 0px 0px #7c4b7f;
+	/*filter: dropshadow(color=#e31cae, offx=0, offy=1);		/* ПРАВИЛО ДЛЯ IE */
+}
+/*****END hover для логотипа*/
+
+.slogan{
+	position:absolute;
+	top:20px;
+	right:2%;
+	color:#f9e9e6;
+	text-align:right;
+	font-size:20px;
+}
+.slogan__text{	
+	line-height:33px;
+	font-weight:bold;
+	font-family:"ScrawlRegular", "Segoe Script", cursive;
+}
+.slogan__text:first-letter{
+	display:inline-block;
+	margin-right:-20px;
+	color:#7c4b7f;
+	vertical-align:bottom;
+	font-weight:bold;
+	font-size:65px;
+}
+.slogan__aythor{
+	color:#fff;	
+	line-height:30px;
+	font-family:"LuxorCNormal", Arial, sans-serif;
+} 
+/* HEAD  (END)
+ *------------------------------------------------------------------------------------
+ */
+ 
+ /* MENU  (BEGIN)
+ *------------------------------------------------------------------------------------
+ */
+.menu_ver__list{
+	position:relative;
+	z-index:1;
+	float:left;	
+	width:300px;
+	text-align:right;
+	padding:34px 0 56px;	
+	background:#9d9bb1;
+	background:rgba(229, 212, 230, 0.3);
+	border-radius:0 0 20px 20px;
+	behavior:url(pie.php);
+}
+.menu_ver__item{
+	display:inline-block;
+	width:80%;
+}
+	.menu_ver__link,
+	.menu_ver__link:link {		
+		position:relative;
+		display:inline-block;
+		width:100%;
+		white-space:nowrap;	
+		font-size:30px;
+		font-family:"LuxorCNormal", Arial, sans-serif;
+		line-height:22px;
+		padding-top:22px;	
+		padding-bottom:2px;		
+		color:#75738f;			
+		border-bottom:1px solid #75738f;
+		background:url(../i/ie7/grey.png) 0 100% no-repeat;
+	}
+.menu_ver__link_state_current,
+.menu_ver__link_state_current:link{		
+	color:#fff;
+	border-color:#fff;
+	text-shadow: 0px 1px 0px #cccae9, 1px 0px 0px #cccae9;
+	background:url(../i/ie7/white.png) 0 100% no-repeat;
+}
+	.menu_ver__first-word_state_current{
+		color:#cccae9;
+		text-shadow: 0px 1px 0px #fff, 1px 0px 0px #fff;
+	}	
+.menu_ver__link:visited { 
+	color:#846886;
+}
+	.menu_ver__link:visited > .menu_ver__first-word{
+		color:#cda69f;
+}
+	.menu_ver__link:link:hover,
+	.menu_ver__link:visited:hover{
+		text-decoration:none;
+		color:#585488;
+		border-color:#585488;
+		text-shadow: 0px 1px 0px #fff, 1px 0px 0px #fff;
+		background:url(../i/ie7/violet.png) 0 100% no-repeat;
+	}
+	.menu_ver__link:link:active,
+	.menu_ver__link:visited:active {	
+		color:#7c4b7f;			
+		border-color:#7c4b7f;
+	}
+
+/* MENU  (END)
+ *------------------------------------------------------------------------------------
+ */
+ 
+ /* PAGE  (BEGIN)
+ *------------------------------------------------------------------------------------
+ */
+.page{
+	line-height:1.4em;
+	font-size:1.4em;										/* IE7 */
+	min-height:auto;
+	padding-bottom:70px;
+}
+
+.page__head{
+	color:#cccae9;
+	font-size:30px;
+	font-family:"LuxorCNormal", Arial, sans-serif;
+	text-shadow: 2px 5px 0px #585488;
+	padding:22px 0;
+}
+.page_with_aside{
+	padding-top:37px;
+	padding-left:32%;
+	color:#e5d4e6;
+	box-sizing:border-box;	
+}
+/* PAGE  (END)
+ *------------------------------------------------------------------------------------
+ */
+ 
+ /* FOOT  (BEGIN)
+ *------------------------------------------------------------------------------------
+ */
+.foot{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:96%;
+    height:60px;
+    padding: 10px 2% 0;    
+	border-top:2px solid #f9d9d3;
+}
+	.foot__copyright,
+	.foot__contacts	{
+		display:inline-block;
+		width:300px;
+		color:#f9d9d3;
+		text-align:right;
+		font-size:10px;
+		font-family:"AngelicaCNormal", Arial, sans-serif;
+	}
+		.foot__developer{	
+			font-size:27px;
+			font-family:"LuxorCNormal", Arial, sans-serif;
+		}
+	.foot__copyright {
+		float: left;
+	}
+	.foot__contacts{
+		float:right;
+		font-size:1.3em;
+	}
+html.no-borderradius .foot_has_bg{
+	filter:none;
+	background:#75738f;
+	border-radius:20px 20px 0 0;
+	behavior:url(pie.php);
+}
+
+/* FOOT  (END)
+ *------------------------------------------------------------------------------------
+ */
+ 
+/* PAGE-INDEX  (BEGIN)
+ *------------------------------------------------------------------------------------
+ */
+.page_index__greeting{
+	padding-right:40%;
+	padding-bottom:40px;
+}
+	.page_index__greeting:first-letter {
+		float:left;
+		padding-right:5px;	
+		color:#7c4b7f;
+		font-weight:bold;	
+		font-size:65px;
+		font-family:"ScrawlRegular", "Segoe Script", cursive;
+	}
+	.page_index__img-wrapper{
+		float:right;
+		position:relative;
+		z-index:1;
+		border:1px solid #e5d4e6;
+		height:354px;
+		width:auto;	
+		background:transparent url(../i/page_index__greeting_hover.jpg) 0 0 no-repeat;
+	}
+	.page_index__img:hover{
+		opacity:0;
+	}	
+.page_index__item{
+	margin-bottom:25px;
+}
+	.page_index__subhead{
+		margin-bottom:2px;
+		border-bottom:1px solid #e5d4e6;
+		line-height:22px;	
+		font-size:20px;	
+		font-family:"LuxorCNormal", Arial, sans-serif;
+	}
+	.page_index__sublist{
+		margin-left:15px;
+	}
+/* PAGE-INDEX  (END)
+ *------------------------------------------------------------------------------------
+ */
+
+/* DECOR  (BEGIN)
+ *------------------------------------------------------------------------------------
+ */
+.decor_color_bordo {
+	font-style: normal;
+	color: #7c4b7f;
+}
+
+.decor_color_white {
+	color: #fff;
+}
+
+.item_has_marker{
+	list-style-image: url(../i/ie7/bordo.png);
+	list-style-position: outside;
+}
+/* DECOR  (END)
+ *------------------------------------------------------------------------------------
+ */
+
+ 

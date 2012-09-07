@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="ru"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="ru"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="ru"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="ru"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Мои работы. Конина Елена - веб-разработчик</title>
+	<meta name="description" content="Сайт веб-разработчика Кониной Елены.">
+	<meta name="author" content="Конина Елена.">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<base href="http://elkonina.ru/" target="_blank"/>
+	<!--[if gt IE 7]><!--><link rel="stylesheet" href="css/works.css" /><!--<![endif]-->
+	<!--[if lt IE 8]><link rel="stylesheet" href="css/works.ie7.css"/><![endif]-->
+	<!--[if gte IE 9]>
+		  <style type="text/css">
+			.head_has_bg,
+			.head_has_bg:before,
+			.head_has_bg:after,
+			.foot_has_bg {
+	       filter: none;
+	    }
+		  </style>
+		<![endif]-->
+	<script src="js/modernizr.elk.js"></script>
+</head>
+<body>
+	<div class="wrapper-out">
+		<div class="wrapper">
+			<header class="head head_has_bg">
+				<div class="logo">
+					<div class="logo_head">
+						<a href="index.html" class="logo__link">
+							<span class="logo_head__lastname">К<em class="decor_color_bordo">о</em>нина</span>
+							<span class="logo_head__firstname">Елена</span>
+						</a>
+					</div>
+					<p class="logo_rezume">веб-разработчик</p>
+				</div>
+			</header>
+			<nav class="menu_gor__list">
+				<ul>
+					<li class="menu_gor__item"><a class="menu_gor__link" href="index.html" target="_self"><span class="menu_gor__first-word">обо </span>мне</a></li>
+					<li class="menu_gor__item"><a class="menu_gor__link menu_gor__link_state_current" href="#my_works" target="_self"><span class="menu_gor__first-word  menu_gor__first-word_state_current">мои </span>работы</a></li>
+					<li class="menu_gor__item"><a class="menu_gor__link" href="history.html" target="_self"><span class="menu_gor__first-word">моя </span>история</a></li>
+					<li class="menu_gor__item"><a class="menu_gor__link" href="favorites.html" target="_self"><span class="menu_gor__first-word">я </span>читаю</a></li>
+					<li class="menu_gor__item"><a class="menu_gor__link" href="contacts.html" target="_self"><span class="menu_gor__first-word">мои </span>контакты</a></li>
+				</ul>
+			</nav>
+			<section class="page page_works">
+				<h1 class="page__head page_works__head">Мои работы</h1>
+				<div class="works__buttons u-clearfix">
+					<canvas id="btn_sml" class="works__button" width="45" height="44"></canvas>
+					<canvas id="btn_lrg" class="works__button" width="45" height="44"></canvas>
+				</div>
+				<ul class="works__list">
+					<li class="works__item_view_small">
+						<figure class="works__fig_view_small u-clearfix">
+							<div class="works__fig-img_view_small elkonina">
+								<img src="i/works/elkonina_small.jpg" width="224" height="152" alt="&laquo;Конина Елена - веб-разработчик&raquo;" />
+							</div>
+							<figcaption class="works__fig-cap_view_small">
+								<h2><a class="works__head" href="http://elkonina.ru" target="_self">&laquo;Конина Елена - веб-разработчик&raquo;</a></h2>
+								<p><a class="works__link"  href="https://github.com/lkon/layout_elkonina" >Code on GitHub</a> Сайт сделан для демонстрации моих возможностей в качестве верстальщика, а также программирования поведения элементов html-документов на javascript. Макет сайта разработан мной в презентационных целях.</p>
+								<h3 class="works__head works__subhead">Примененные технологии:</h3>
+								<ul>
+									<li class="item_has_marker">при верстке страниц сайта была применена методология &nbsp;<a class="works__link" rel='nofollow' href="http://bem.github.com/bem-method/pages/beginning/beginning.ru.html">BEM</a>;</li>
+									<li class="item_has_marker">меню страниц и горизонтальное и вертикальное сверстано идентично, представление на страницах определяется классом, описанным в таблице стилей;</li>
+									<li class="item_has_marker">декоративные полукружья для элементов вертикального меню выполнены генерируемыми элементами с заданием border-radius для верхней границы элемента, для IE8 & IE7 используется встроенное в css изображение в base64;</li>
+									<li class="item_has_marker">контакты в подвале страниц сверстаны с применением микроформата hcard, можно посмотреть с помощью <a class="works__link" rel="nofollow" href="https://chrome.google.com/webstore/detail/oalbifknmclbnmjlljdemhjjlkmppjjl">Microformats for Google Chrome™</a> </li>
+									<li class="item_has_marker">буллиты элементов списка на страницах выполнены с помощью генерируемых элементов, содержащих Unicode сharacter 'RIGHT HALF BLACK CIRCLE' (U+25D7), для IE8 используется встроенное в css изображение в base64, а для IE7 дополнительно подгружается изображение;</li>
+									<li class="item_has_marker">для страницы <span class="works__link_visited">Мои работы</span> разработан <a class="works__link" href="sh/elkonina.php">сценарий</a>, меняющий представление страницы с минималистического - только изображения работ, доступные для перехода на соответствующую страницу по клику; на развернутое - где доступно описание проделанной работы;</li>
+									<li class="item_has_marker">для страницы <a class="works__link" href="history.html" target="_self">Моя история</a> применены css-правила column-count, column-gap, column-rule, а для браузеров, не поддерживающих эти правила использован&nbsp;<a class="works__link" rel='nofollow' href="http://welcome.totheinter.net/columnizer-jquery-plugin/">Columnizer jQuery Plugin</a>, разработанный Adam Wulf;</li>
+									<li class="item_has_marker">на странице <a class="works__link" href="contacts.html" target="_self">Мои контакты</a> фоном служит фотография с видом на ул.Остоженка, для эффекта отражения (в современныъх браузерах) используется генерируемые элементы с перевернутым фоном с помощью правил: <br />transform: scaleX(-1); <br />background-size: cover;</li>
+									<li class="item_has_marker">на всех страницах декоративные элементы выполнены в основном на холсте - canvas;</li>
+									<li class="item_has_marker">для IE, не поддерживающего css-правило text-shadow, использован &nbsp;<a class="works__link" rel='nofollow' href="https://github.com/franklinkim/jQuery-Plugin-Text-Shadow.git"> jQuery-Plugin-Text-Shadow</a>.</li>
+								</ul>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="works__item_view_small">
+						<figure class="works__fig_view_small u-clearfix">
+							<div class="works__fig-img_view_small ya_dasha">
+								<img src="i/works/ya_dasha_small.jpg" width="224" height="152" alt="&laquo;Даша Малахова&raquo;" />
+							</div>
+							<figcaption class="works__fig-cap_view_small">
+								<h2><a class="works__head" href="http://elkonina.ru/works/malahova" >&laquo;Даша Малахова&raquo;</a></h2>
+								<p><a class="works__link"  href="https://github.com/lkon/layout_malahova" >Code on GitHub</a> Страница была сверстана в рамках обучения в Школе верстки Яндекса. Макет предоставлен организаторами. Верстка не поддерживает IE &lt; 8</p>
+								<h3 class="works__head works__subhead">Примененные технологии:</h3>
+								<ul>
+									<li class="item_has_marker">верстка независимыми блоками по методологии&nbsp;<a class="works__link" rel='nofollow' href="http://bem.github.com/bem-method/pages/beginning/beginning.ru.html">BEM</a>;</li>
+									<li class="item_has_marker">в рамках стратегии минимизации изображений логотип выполнен с помощью двух изображений: в формате *.jpg, переданного в html-коде, и *.png - фоном в таблице стилей. Кроме этого, если в результате ошибки загрузка изображений будет не успешной, то  логотип сайта дублирован заголовком, стилизованным css-правилами, который буквально всплывет из-за границ общего контейнера - div.b-logo;</li>
+									<li class="item_has_marker">выпадающее меню оформлено ребристой окантовкой, меняющей цвет в зависимости от пункта меню. Для представления окантовки использованы встроенные в css изображения в кодировке base64;</li>
+									<li class="item_has_marker">все контуры элементов с обратным скруглением выполнены с помощью border-image, а для браузеров, не поддерживающих это правило, описан outline как нейтральное свойство, не влияющее на боксовую модель элемента. Только подпись к слайду рецепта, как самый визуально значимый элемент декора, выполнен с добавлением генерируемого контента по границам вверху и внизу элемента, фоном для которых загружаются дополнительные изображения со скругленными внутрь уголками; </li>
+									<li class="item_has_marker">код слайдшоу рецептов генерируется <a class="works__link" href="sh/malahova.php">сценарием</a> в зависимости от данных, полученных из небольшой базы данных, на требуемую дату из списка: 'сегодня', 'вчера', 'позавчера'; </li>
+									<li class="item_has_marker">для выравнивания фона для дат списка по высоте и по продольной оси применены правила: <br> background-position-x: 50%; <br>background-position-y: 0; <br> background-size: 100% 100%;</li>
+									<li class="item_has_marker">изображения для статей разделов выполнены доступными для перехода по клику на страницу с соответствующей статьей: в коде изображения являются дочерними для ссылки, вложенной в заголовок, сами изображения абсолютно позиционируются относительно контейнера раздела, а раздел, в свою очередь, предусматривает высоту верхнего поля, равную высоте изображения;</li>
+									<li class="item_has_marker">советы в правой колонке подгружаются ajax по требованию. Фон выполнен на холсте, меняющем размеры в зависимости от высоты контента, растягивающей общий родительский контейнер. Для IE8 фон выполнен с загрузкой изображения через таблицу стилей;</li>
+									<li class="item_has_marker">элемент декора страницы - значок, разделяющий текст от даты его опубликования для браузеров, поддерживающих css-правило transform, выполнен генерируемым элементом, содержащим Unicode сharacter 'INTEGRAL' (U+222B), повернутым на 90 град.; для остальных браузеров - с помощью изображения, встроенного в css, в кодировке base64;</li>
+									<li class="item_has_marker">колонки подвала страницы выполнены тремя списками (vcard, меню и разработчик) со свойством display: table-cell;</li>
+								</ul>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="works__item_view_small">
+						<figure class="works__fig_view_small u-clearfix">
+							<div class="works__fig-img_view_small ya_bem">
+								<img src="i/works/ya_bem_small.jpg" width="224" height="152" alt="&laquo;Baring Vostok Capital Partners&raquo;" />
+							</div>
+							<figcaption class="works__fig-cap_view_small">
+								<h2><a class="works__head" href="http://elkonina.ru/works/bemtech" >&laquo;Baring Vostok Capital Partners&raquo;</a></h2>
+								<p><a class="works__link"  href="https://github.com/lkon/layout_bemtech" >Code on GitHub</a> Страница была сверстана в рамках обучения в Школе верстки Яндекса. Макет предоставлен организаторами.</p>
+								<h3 class="works__head works__subhead">Примененные технологии:</h3>
+								<ul>
+									<li class="item_has_marker">верстка независимыми блоками по методологии&nbsp;<a class="works__link" rel='nofollow' href="http://bem.github.com/bem-method/pages/beginning/beginning.ru.html">BEM</a>. Элементу присваиваются разные классы в зависимости от функциональной нагрузки и декоративного оформления, часто по имени класса можно определить css-правила, описывающие представление элемента на странице. Сверстано 4 страницы: <a class="works__link" href="works/bemtech/index.html">Главная</a>, <a class="works__link" href="works/bemtech/company.html">Компания</a>, <a class="works__link" href="works/bemtech/strategy.html">Стратегия</a> и <a class="works__link" href="works/bemtech/funds.html">Фонды</a>;</li>
+									<li class="item_has_marker"><a href="sh/bemtech.php" class="works__link">сценарий</a> слайдшоу на главной странице использует css-transition для плавного растворения / появления слайдов, а для браузеров, не поддерживающих transition, используется функция fadeTo() библиотеки jQuery;</li>
+									<li class="item_has_marker">для выравнивания изображений логотипов по вертикали в центре ссылок-контейнеров на всех страницах для контейнеров (&lt;a&gt;) задается line-height, равный его высоте и для самого изображения правило vertical-align: middle;</li>
+								</ul>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="works__item_view_small">
+						<figure class="works__fig_view_small u-clearfix">
+							<div class="works__fig-img_view_small ya_amour">
+								<img src="i/works/ya_amour_small.jpg" width="224" height="152" alt="&laquo;Amour&raquo;" />
+							</div>
+							<figcaption class="works__fig-cap_view_small">
+								<h2><a class="works__head" href="http://elkonina.ru/works/amour" >&laquo;Amour&raquo;</a></h2>
+								<p><a class="works__link"  href="https://github.com/lkon/layout_amour" >Code on GitHub</a> Страница была сверстана в рамках обучения в Школе верстки Яндекса. Макет предоставлен организаторами.</p>
+								<h3 class="works__head works__subhead">Примененные технологии:</h3>
+								<ul>
+									<li class="item_has_marker">основной фоновый цвет страницы вместе с фоновым изображением определен в css-правилах для html-элемента документа страницы;</li>
+									<li class="item_has_marker">фоновые изображения разделены по два: одно из них в формате png8 - центральное, загружается фоном элемента('.body' и '.body_wrap-in'), а второе - в формате png24 - загружается фоном генерируемого элемента;</li>
+									<li class="item_has_marker">для отображения фонового изображения подвала страницы в body вложена внутренняя обертка - div, css-правила для которой прописаны таким образом, чтобы изображение цветка фиксировалось в углу страницы и при изменении размеров окна в зависимости от размеров дисплея, это изображение никуда не смещалось;</li>
+									<li class="item_has_marker">логотип страницы выполнен с применением карты-изображения, ограничивающей активную область ссылки словом 'Amour'. Причина такой реализации в том, что imho нецелесообразно подключать дополнительный шрифт для отображения логотипа и слогана сайта, поэтому они выполнены картинкой. Дополнительно в разметке предусмотрены заголовки h1 и h2 логотипа и слогана с аналогичным содержимым, в случае неуспешной загрузки изображения логотипа, будут отображены эти заголовки (для них прописаны css-правила стилизации под картинку);</li>
+									<li class="item_has_marker">навигация сайта выполнена 'резиновой' с применением css-правил display: table; для списка меню и display: table-cell; для всех элементов списка меню. Кроме этого, чтобы не было переноса меню на другю строку применено правило white-space: nowrap; для списка меню;</li>
+									<li class="item_has_marker">для элементов меню в активном состоянии генерируются элементы до и после со скругленными углами, абсолютно позиционируемые по границам элемента по бокам, что определяет эффект всплытия 'плошки' активного элемента над другими неактивными;</li>
+									<li class="item_has_marker">оформление всплывающего окна аутентификации градиентом цвета и скруглением углов в IE8 выполнено встроенным в css изображением, закодированным base64. Тоже и для IE7, но использован формат mhtml -сборного документа, где в самом начале файла стилей для IE7 объявляются элементы изображений и их код в кодировке base64, а затем уже описываются css-правила для этих элементов; </li>
+									<li class="item_has_marker">в slideshow использована наттивная поддержка браузерами css-правила: transition. Для браузеров, не поддерживающих transition, для эффекта плавности используется jQuery-библиотека и его функция $.animate(). Кроме этого, программно выполнено: полная прозрачность для самих изображений и загрузка фоном этих изображений в контейнер родителя, у которого скруглены углы для всех браузеров кроме IE9 и FF, начиная с 4.0.1, которые поддерживают скругление углов контейнера с дочерними изображениями. При смене изображений в IE9 и FF4.0.1+ все выглядит хорошо, а в других браузерах - рябят круглыми углами картинки;</li>
+									<li class="item_has_marker">задание прозрачности для надписи к рисункам разное в зависимости от поддержки браузерами: background:#f36; background:url(data:image/png;base64,); background:rgba(255,51,102,0.5);</li>
+									<li class="item_has_marker">разметка страницы - резиновая: элементы списков фотографий и анкет выполнены display: inline-block;, что позволяет удобно просматривать страницу на дисплее большого и маленького размера;</li>
+									<li class="item_has_marker">для разметки координат агенства использованы микроформаты;</li>
+									<li class="item_has_marker"><a href="sh/amour.php" class="works__link">сценарий</a> поведения элементов страницы включает: <br />1) обработку отсутствия изображений при их неуспешной загрузке с сервера(убираются крестики); <br /> 2) появление и исчезание окна аутентификации; <br />3) работа слайдшоу; <br />4) скругление углов для изображений слайдшоу; <br /> 5) доработка представления документа в IE7: генерируются элементы с фоновым изображением для надлежащего оформления страницы (используется метод insertAdjacentHTML);</li>
+								</ul>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="works__item_view_small">
+						<figure class="works__fig_view_small u-clearfix">
+							<div class="works__fig-img_view_small ya_leto">
+								<img src="i/works/ya_leto_small.jpg" width="224" height="152" alt="&laquo;Neosurf surfactant&raquo;" />
+							</div>
+							<figcaption class="works__fig-cap_view_small">
+								<h2><a class="works__head" href="http://elkonina.ru/works/leto" >&laquo;Neosurf surfactant&raquo;</a></h2>
+								<p><a class="works__link"  href="https://github.com/lkon/layout_leto" >Code on GitHub</a> Страница была сверстана в рамках обучения в Школе верстки Яндекса. Макет предоставлен организаторами.</p>
+								<h3 class="works__head works__subhead">Примененные технологии:</h3>
+								<ul>
+									<li class="item_has_marker">при верстке страницы использована техника <a class="works__link" href="http://chikuyonok.ru/2010/01/liquid-site-markup/"  rel="nofollow">верстки растягивающихся сайтов С.Чикуенка</a>;</li>
+									<li class="item_has_marker">логотип страницы семантически представляет собой заголовок первого уровня, который содержит изображение - эмблему. Родительский контейнер ограничивает вид логотипа таким образом, что сам заголовок невидим, потому что встроенное изображение как бы "топит" его, но в случае, если изображение по какой-то ошибке не пришло с сервера, то на его место поднимаются слова заголовка;</li>
+									<li class="item_has_marker">градиент вверху страницы выполнен фоном слоя, который растягивается на всю высоту страницы (background: linear-gradient(top, #colour 0%, #colour 50%); /* W3C */), чтобы возможно было выполнить такое заполнение на половину высоты в IE &lt; 9, использовано встроенное в css изображение, закодированное base64;</li>
+									<li class="item_has_marker">фоновые изображения оптимизированы так: разделены на фон в формате png24 и само изображение в формате jpg. Чтобы исключить лишние области, всё это реализуется на canvas с применением маски отсечения. Изображения в html-коде имеют пользовательские атрибуты данных (data-alpha-src - источник маски отсечения, data-fon-src - источник фона, data-translate-x и data-translate-y - смещение изображения относительно фона по оси Х и Y) которые обрабатывает <a class="works__link" href="sh/leto.php"> сценарий</a> (основа кода благодаря <a class="works__link"  href="http://www.css-ig.net/transparency-jpg-pictures.html" rel="nofollow">Александру Бойченко</a> взята из <a class="works__link" href="http://banzalik.ru/transparent-jpg/" rel="nofollow">источника</a>;</li>
+									<li class="item_has_marker">для отображения меню, растянутого на 2/3 ширины страницы, использовано css-правило - display:table, соответственно у дочерних элементов - display:table-cell.</li>
+								</ul>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="works__item_view_small">
+						<figure class="works__fig_view_small u-clearfix">
+							<div class="works__fig-img_view_small zaragoza">
+								<img src="i/works/zaragoza_small.jpg" width="224" height="152" alt="&laquo;Zaragoza&raquo;" />
+							</div>
+							<figcaption class="works__fig-cap_view_small">
+								<h2><a class="works__head" href="http://elkonina.ru/works/zaragoza/" >&laquo;Zaragoza&raquo;</a></h2>
+								<p><a class="works__link"  href="https://github.com/lkon/layout_zaragoza" >Code on GitHub</a> Страница была сверстана для portfolio. Макет взят <a class="works__link"  rel="nofollow"  href="http://efimov.ws/main/develop/webmasters/psd-maketyi-sajtov.html">отсюда</a>.</p>
+								<h3 class="works__head works__subhead">Примененные технологии:</h3>
+								<ul>
+									<li class="item_has_marker">элементы оформления страницы, такие как: фон слогана в три полупрозрачных слоя с градиентом (вверху слева страницы), теневое оформление статей с иллюзией приподнятости краев (центр страницы), записки со стикерами и записка с контактами, повернутые на разные углы (правая колонка) - реализованы средствами обработки современными браузерами правил CSS.3 ( box-shadow, transform), что позволило сократить количество загружаемых изображений (cправедливо для всех, кроме IE8 и младше, для которых грузятся дополнительные изображения);</li>
+									<li class="item_has_marker">чтобы при изменении ширины страницы, фон динамично изменялся, фоновые изображения размещены в генерируемом контенте, абсолютно позиционируемом с разным индексом по оси z;</li>
+									<li class="item_has_marker">мелкие элементы страницы, такие как "плюс" - ссылка для перехода к полной версии статьи, выполнены с помощью изображения, встроенного в css, в кодировке base64, для IE7 в формате MHTML (веб-архивом);</li> 
+									<li class="item_has_marker">разноцветный акцент для подчеркивания заголовков левой колонки выполнен с помощью box-shadow;</li>
+									<li class="item_has_marker">загнутый уголок у записки с контактами выполнен в технике "заплатки", где генерируемый контент перекрывает друг друга, создавая требуемую иллюзию.</li>
+									<li class="item_has_marker">"тяжелые" фоновые изображения разделены на два - одно в формате png8, второе - png24, и накладываются друг на друга с помощью генерируемого контента.</li>
+									<li class="item_has_marker">для создания эффекта оттенения заголовков в IE8-9 используется плагин <a class="works__link"  href="http://www.hintzmann.dk/testcenter/js/jquery/textshadow/jquery.textshadow.js"   rel="nofollow">jquery.textshadow.js</a>, разработанный MartinHintzmann. Этот плагин не воссоздает множественные тени, поэтому был сделан небольшой <a class="works__link"  href="sh/zaragoza.php" >скрипт</a>, где отбираются все элементы с тенями и корректируются параметры теней для результативной работы плагина.</li>
+								</ul>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="works__item_view_small">
+						<figure class="works__fig_view_small u-clearfix">
+							<div class="works__fig-img_view_small six_studios">
+								<img src="i/works/six_studios_small.jpg" width="224" height="152" alt="&laquo;Six Studios&raquo;" />
+							</div>
+							<figcaption class="works__fig-cap_view_small">
+								<h2><a class="works__head" href="http://elkonina.ru/works/skm/" >&laquo;Six Studios&raquo;</a></h2>
+								<p><a class="works__link"  href="https://github.com/lkon/layout_skm" >Code on GitHub</a> Страница была сверстана для portfolio. Макет взят <a class="works__link"  rel="nofollow"  href="http://designinstruct.com/web-design/clean-classy-web-design-photoshop/">отсюда</a>.</p>
+								<h3 class="works__head works__subhead">Примененные технологии:</h3>
+								<ul>
+									<li class="item_has_marker">для иконок логотипа, заголовков секций, оформления mail-box используется CSS-спрайт. Сами иконки выполнены фоном сгенерированного контента с регулированием размеров с помощью правила backgronde-size. Для IE7 сконструирован другой CSS-спрайт и иконки размещены фоном у самих элементов;</li>
+									<li class="item_has_marker">декоративные элементы на странице (завиток и волнистые линии) сделаны на canvas, для IE8- эти изображения выполнены фоном элементов;</li>
+									<li class="item_has_marker">фон основной статьи выполнен с помощью рисунка в формате png24 и фонового цвета, что позволяет изменять оттенок фона по желанию. Для наглядности сделан небольшой скрипт и дополнительная таблица стилей для представления страницы в "холодных тонах" - две кнопки справа(поддерживается IE9+);</li>
+									<li class="item_has_marker">градиент для всех кнопок выполнен с помощью background:gradient для сгенерированного контента, наложенного подобно вуали на сами кнопки, благодаря чему эффект градиента сохраняется и в состоянии :hover кнопки;</li>
+									<li class="item_has_marker">две колонки в подвале страницы выполнены для всех браузеров с помощью правила display:table и отдельно для IE 7- использовано изменение потока - float.</li>
+									<li class="item_has_marker">для эффекта плавности в slideshow основной статьи страницы использована наттивная поддержка браузерами css-правила: transition. Для браузеров, не поддерживающих transition, применена jQuery.animate().</li>
+									<li class="item_has_marker">для фона подписи к слайдам в IE7 & IE8, не поддерживающих background-colour: rgb(); - использованы встроенные в сss изображения в кодироваке base64, причем для IE7 в формате MHTML (инкапсуляции MIME в статистических документах HTML), также называемом веб-архивом. Формат MHTML расширяет HTML для внедрения в документ HTML кодированных объектов, таких как изображения. 
+									<li class="item_has_marker">для скругления углов изображений слайдов применена техника замещения: само изображение сделано абсолютно прозрачным (opacity = 0), а у родительского элемента, в данном случае - figure, это же изображение является фоном. У родительского элемента применяем border-radius и достигаем эффекта скругленных углов у изображения.</li>
+									<li class="item_has_marker"><a class="works__link"  href="sh/skm.php" >сценарий</a> поведения элементов страницы определяет работу слайдшоу, дополняет представление страницы декоративными элементами, а также предоставляет возможность переключения отображения страницы в разных цветовых решениях.</li>
+								</ul>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="works__item_view_small">
+						<figure class="works__fig_view_small u-clearfix">
+							<div class="works__fig-img_view_small fds">
+								<img src="i/works/fds_small.jpg" width="224" height="152" alt="&laquo;Fictional design studio&raquo;" />
+							</div>
+							<figcaption class="works__fig-cap_view_small">
+								<h2><a class="works__head" href="http://elkonina.ru/works/fds/" >&laquo;Fictional design studio&raquo;</a></h2>
+								<p><a class="works__link"  href="https://github.com/lkon/layout_fds" >Code on GitHub</a> Страница была сверстана для portfolio. Макет взят <a class="works__link"  rel="nofollow"  href="http://webdesignfan.com/free-modern-design-studio-psd-template/">отсюда</a>.</p>
+								<h3 class="works__head works__subhead">Примененные технологии:</h3>
+								<ul>
+									<li class="item_has_marker">для вытянутого фона страницы использовано правило background-size, для IE - фильтр: AlphaImageLoader с параметром scale</li>
+									<li class="item_has_marker">для общего фона страницы, а также фона шапки, подвала и секции основного контента использована одно и то же изображение с генерируемом поверх него полупрозрачным цветным фоном или градиентом. Для ie8генерерируемый фон создается с помощью встроенного изображения data:URL, закодированного base64 (в т.ч. и градиент основного контента);</li>
+									<li class="item_has_marker">для элементов меню, колонок aside и подвала использована техника установки для дочерних элементов display : table-cell, а родительского элемента display : table;</li>
+									<li class="item_has_marker">для размещения изображения основного контента (кисть), размером превосходящего сам контент, использована техника отрицательного margin верха и низа до границ родителя с последующей компенсацией padding тех жеразмеров. Теперь изображение полностью видно в пределах фона контента;</li>
+									<li class="item_has_marker">для размещения тизера слева от контента использована техника исключения тизера из нормального потока(float:left) c изменением относительного расположения по высоте(вровень с верхней границей контента). Самконтент отодвигается margin-left вправо, предоставляя часть своего расположения тизеру.</li>
+									<li class="item_has_marker">для заголовков использованы множественные тени с применением text-shadow, для IE тени воспроизведены с помощью javаscript с использованием модуля <a class="works__link"  href="http://www.hintzmann.dk/testcenter/js/jquery/textshadow/jquery.textshadow.js"  rel="nofollow">jquery.textshadow.js</a>, разработанного Martin Hintzmann. Чтобы скрипт понимал значения свойства text-shadow все цвета, представленные в rgba, изменены в hex нотацию.</li>
+									<li class="item_has_marker">для эмуляции скруглений и теней вокруг элементов в IE использован плагин pie.htc. К сожалению, плагин не захотел обрабатывать изображение фона контента, загруженное с помощью filter.</li>
+								</ul>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="works__item_view_small">
+						<figure class="works__fig_view_small u-clearfix">
+							<div class="works__fig-img_view_small club">
+								<img src="i/works/club_small.jpg" width="224" height="152" alt="&laquo;Red Way&raquo;" />
+							</div>
+							<figcaption class="works__fig-cap_view_small">
+								<h2><a class="works__head" href="http://elkonina.ru/works/club/" >&laquo;Red Way&raquo;</a></h2>
+								<p><a class="works__link"  href="https://github.com/lkon/layout_club" >Code on GitHub</a> Страница была сверстана для portfolio. Макет взят <a class="works__link"  rel="nofollow"  href="http://ekimoff.ru/123/">отсюда</a></p>
+								<h3 class="works__head works__subhead">Примененные технологии:</h3>
+								<ul>
+									<li class="item_has_marker">микроформаты для контактов организации;</li>
+									<li class="item_has_marker">для корректного отображения фона основной статьи (чернильного пятна) использовано правило background-size, а специально для IE - фильтр: AlphaImageLoader с параметром scale.</li>
+									<li class="item_has_marker">организация колонок в подвале страницы выполнена для всех браузеров с помощью правила display:table и отдельно для IE -9 использовано изменение потока - float.</li>
+									<li class="item_has_marker">для слайдшоу написан простой <a class="works__link"  href="sh/club.php" >скрипт</a>, который сначала GET-методом получает с сервера список необходимых файлов фотоизображений, а потом HEAD-методом проверяет действительное существование нужного файла на сервере, в случае успеха адрес этого файла становится очередным адресом существующего img-элемента в DOM.</li>
+								</ul>
+							</figcaption>
+						</figure>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer class="foot foot_has_bg works__foot">
+			<div class="foot__copyright">
+				Designe<i class="decor_color_bordo">&amp;</i>coding <br /> <span class="foot__developer">konina</span> <br /> 2012
+			</div>
+			<div class="vcard foot__contacts">
+				<a class="url fn n visited_no_apply" href="http://elkonina.ru/"> 
+					<span class="given-name">Елена</span> 
+					<span class="additional-name" style="display: none;">Николаевна</span> 
+					<span class="family-name">Конина</span>
+				</a>
+				<br> <a class="email" href="mailto:konina@mail.ru">konina@mail.ru</a>
+				<div class="tel">+7 (906) 771.89.54</div>
+				<div class="adr">
+					<span class="locality">Москва</span> 					
+					<div style="display: none;">
+						 <span class="street-address">Зеленый проспект</span>
+						 <span class="locality">Москва</span>,
+						 <span class="postal-code">111558</span>
+						 <span class="country-name">Россия</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/elk.min.js"></script>
+</body>
+</html>
