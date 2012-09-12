@@ -80,12 +80,6 @@ p,pre {
 	margin: 1em 0;
 }
 
-pre,code,kbd,samp {
-	font-family: monospace, serif;
-	_font-family: 'courier new', monospace;
-	font-size: 1em;
-}
-
 pre {
 	white-space: pre;
 	white-space: pre-wrap;
@@ -268,6 +262,11 @@ body {
    -moz-transform-origin: 0 0;
    -o-transform: scale(0.67);
    transform: scale(0.67);*/
+}
+pre,code,kbd,samp {
+	font-family: monospace, serif;
+	_font-family: 'courier new', monospace;
+	font-size: 1em;
 }
 :link {
 	text-decoration: none;
